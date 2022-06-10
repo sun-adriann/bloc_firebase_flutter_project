@@ -2,10 +2,11 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import 'firebase_options.dart';
 import 'config/injection_modules.dart';
+import 'firebase_options.dart';
 
-import 'features/auth/blocs/bloc/auth_bloc.dart';
+import 'features/auth/blocs/auth_bloc/auth_bloc.dart';
+
 import 'features/auth/views/sign_in_view.dart';
 
 Future<void> main() async {

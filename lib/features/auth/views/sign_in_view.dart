@@ -5,7 +5,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import '../../../common_widgets/custom_button.dart';
 import '../../../common_widgets/custom_textfield.dart';
 import '../../home/home_view.dart';
-import '../blocs/bloc/auth_bloc.dart';
+import '../blocs/auth_bloc/auth_bloc.dart';
 
 class SignInView extends StatefulWidget {
   const SignInView({super.key});

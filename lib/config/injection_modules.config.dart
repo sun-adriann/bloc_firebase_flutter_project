@@ -8,7 +8,7 @@ import 'package:firebase_auth/firebase_auth.dart' as _i3;
 import 'package:get_it/get_it.dart' as _i1;
 import 'package:injectable/injectable.dart' as _i2;
 
-import '../features/auth/blocs/bloc/auth_bloc.dart' as _i6;
+import '../features/auth/blocs/auth_bloc/auth_bloc.dart' as _i6;
 import '../features/auth/repositories/auth_repository.dart' as _i5;
 import '../features/auth/repositories/i_auth_repository.dart' as _i4;
 import 'injection_modules.dart' as _i7; // ignore_for_file: unnecessary_lambdas
