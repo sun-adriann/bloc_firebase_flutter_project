@@ -1,5 +1,5 @@
 name: flutter_bloc_firebase_basic_auth
-description: A simple Flutter app using flutter_bloc and Firebase.
+description: A simple Flutter app using flutter_bloc, freezed classes, injectable, and Firebase.
 publish_to: 'none' 
 version: 1.0.0+1
 
