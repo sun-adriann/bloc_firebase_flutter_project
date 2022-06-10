@@ -16,10 +16,10 @@ class AuthBloc extends Bloc<AuthEvent, AuthState> {
   AuthBloc(IAuthRepository authRepository)
       : _authRepository = authRepository,
         super(const _Initial()) {
-    on<AuthEvent>(_onEvent);
+    on<AuthEvent>(_eventHandler);
   }
 
-  Future<void> _onEvent(AuthEvent event, Emitter<AuthState> emit) {
+  Future<void> _eventHandler(AuthEvent event, Emitter<AuthState> emit) {
     return event.map(
       signInWithEmailAndPassword: (e) =>
           _signInWithEmailAndPassword(state, emit, e),
